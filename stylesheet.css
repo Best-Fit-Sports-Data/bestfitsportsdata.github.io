@@ -1,0 +1,83 @@
+body{
+  background-color: #8c949b;
+}
+
+h1{color: white;
+  font-family:"Helvetica";
+}
+
+h2{color: white;
+  font-family:"Helvetica";
+}
+
+h3{color: white;
+  font-family:"Helvetica";
+}
+
+p{color: white;
+  font-family:"Helvetica";
+}
+
+.navbar {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1b2434;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:"Helvetica";
+}
+
+li a:hover {
+  background-color: #000000;
+}
+}
+
+.logo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  text-align: center;
+  overflow: hidden;
+  margin: auto; /* Centers the container itself within its parent */
+}
+
+
+.logo_container img {
+  display: block; /* Ensures the image is treated as a block element for proper centering */
+  max-width: 100%; /* Scales down the image to fit within the container */
+  max-height: 100%; /* Ensures the image does not exceed container height */
+  margin: auto; /* Centers the image within the container */
+}
+
+.example_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  text-align: center;
+  overflow: hidden;
+  margin: auto; /* Centers the container itself within its parent */
+  
+}
+
+.example_container img {
+  display: flex; /* Ensures the image is treated as a block element for proper centering */
+  max-width: 100%; /* Scales down the image to fit within the container */
+  max-height: 100%; /* Ensures the image does not exceed container height */
+  margin: auto; /* Centers the image within the container */
+  padding: 0;
+}
